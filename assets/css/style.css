@@ -1,0 +1,110 @@
+/*.country-name {
+    background-color: #66ff66;
+}
+
+.population {
+    background-color: blue;
+}
+
+.capital {
+    background-color: green;
+}
+
+.bagan {
+    background-color: yellow;
+}
+.shwedagon {
+    background-color: orange;
+}
+
+.language {
+    background-color: pink;
+}
+
+.currency {
+    background-color: brown;
+}
+
+.favorite-food {
+    background-color: gray;
+}
+
+.nobunaga {
+    background-color: black;
+}
+
+.syotoku-taishi {
+    background-color: coral;
+}*/
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.box {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px gray;
+    border: 1px solid #ccc;
+}
+
+.box img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.box-left {
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box-right {
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+w-10{
+    width: 10%;
+}
+header{
+    text-align:center;
+}
+footer{
+    text-align:center;
+}
+
+/*全て10px*/
+m-10{
+    margin: 10px;
+}
+/*上*/
+mt-10{
+    margin-top: 10px;
+}
+/*下*/
+mb-10{
+    margin-bottom: 10px;
+}
+/*上下*/
+my-10{
+    margin: 10px;
+}
+/*左右*/
+mx-10{
+    margin: 10px;
+}
