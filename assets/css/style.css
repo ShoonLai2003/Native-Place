@@ -37,6 +37,22 @@
     background-color: coral;
 }*/
 
+.traditional-food {
+    display: flex;
+}
+
+.aung-san-suu-kyi {
+    display: flex;
+}
+
+.traditional-food img, .aung-san-suu-kyi img {
+    width: 30%;
+}
+
+.traditional-food.text, .aung-san-suu-kyi.text {
+    width: 70%;
+}
+
 img {
     max-width: 100%;
     width: 100%;
@@ -49,7 +65,7 @@ img {
 }
 
 .box {
-    width: 30%;
+    flex: 1;
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
@@ -60,7 +76,7 @@ img {
 .box img {
     height: 300px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
 }
 
@@ -78,33 +94,52 @@ img {
     box-sizing: border-box;
 }
 
-w-10{
+.w-10 {
     width: 10%;
 }
-header{
-    text-align:center;
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    background-color: rgb(255, 217, 67);
 }
-footer{
-    text-align:center;
+
+footer {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.left {
+    padding: 0 10px;
+    text-align: left;
 }
 
 /*全て10px*/
-m-10{
+.m-10 {
     margin: 10px;
 }
+
 /*上*/
-mt-10{
+.mt-10 {
     margin-top: 10px;
 }
+
 /*下*/
-mb-10{
+.mb-10 {
     margin-bottom: 10px;
 }
+
 /*上下*/
-my-10{
+.my-10 {
     margin: 10px;
 }
+
 /*左右*/
-mx-10{
+.mx-10 {
     margin: 10px;
 }
